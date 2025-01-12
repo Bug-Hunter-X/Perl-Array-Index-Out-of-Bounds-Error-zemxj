@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);my $element;if ($#array >= 2) { $element = $array[2];} else { print "Index out of bounds\n"; } #Using $#array to get the last index and checking bounds before access
